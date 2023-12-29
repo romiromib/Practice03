@@ -13,16 +13,32 @@ public class Ex10 {
 		Scanner sc = new Scanner(System.in);
 		 System.out.println("숫자를 입력하세요");
 		
+		 /*System.out.print("숫자: ");
+		 int n1 = sc.nextInt();
+		 System.out.print("숫자: ");
+		 int n2 = sc.nextInt();
+		 System.out.print("숫자: ");
+		 int n3 = sc.nextInt();
+		 System.out.print("숫자: ");
+		 int n4 = sc.nextInt();
+		 System.out.print("숫자: ");
+		 int n5 = sc.nextInt();
+		 */
+		 int k;
+		 
 		 for(int i=1; i<=5 ; i++) {
 			 System.out.print("숫자: ");
-			 int no = sc.nextInt();
-			 System.out.print("숫자: ");
-			 int next = sc.nextInt();
-		
-	 
+			 int n = sc.nextInt();
+			 n++;
+			 if(n>n++) {
+			 k = n;
+			 }
+			 else {
+			 k = n++;		 
+			 }
+			 System.out.print(k);
 		 }
-		 
-		 System.out.println("최대값은"+"입니다");
+	
 		
 		
 		sc.close();

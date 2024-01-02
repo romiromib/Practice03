@@ -24,20 +24,17 @@ public class Ex10 {
 		 System.out.print("숫자: ");
 		 int n5 = sc.nextInt();
 		 */
-		 int k;
 		 
-		 for(int i=1; i<=5 ; i++) {
+		 for(int i=0; i<5 ; i++) {
 			 System.out.print("숫자: ");
 			 int n = sc.nextInt();
-			 n++;
-			 if(n>n++) {
-			 k = n;
-			 }
-			 else {
-			 k = n++;		 
-			 }
-			 System.out.print(k);
+			
+			 
 		 }
+		 
+		
+		 System.out.println("최대값은 입니다.");
+		 
 	
 		
 		
